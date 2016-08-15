@@ -1,0 +1,19 @@
+{
+    "extends": "stylelint-config-standard",
+    "ignoreFiles": ["static/sass/vendor/**/*.scss", "static/sass/helpers/_mixins.scss"],
+    "rules": {
+        "color-hex-case": "lower",
+        "indentation": 4,
+        "max-empty-lines": 3,
+        "number-max-precision": 3,
+        "selector-pseudo-element-colon-notation": "single",
+        "value-no-vendor-prefix": true,
+        "property-no-vendor-prefix": true,
+        "selector-no-vendor-prefix": true,
+        "at-rule-empty-line-before": null,
+        "comment-empty-line-before": ["always", {
+            ignore: ["between-comments"]
+        }],
+        "selector-max-specificity": "0,3,2"
+    }
+}
